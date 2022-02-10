@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export function SortingSelect() {
+export default function SortingSelect() {
     return (
         <Box>
             <Typography align="center" fontWeight='bold' fontSize={'40px'}>
@@ -17,7 +17,7 @@ export function SortingSelect() {
                     boxShadow: 5
                 }}>
                     <Typography> Bubble </Typography>
-                    <Link href={'sorting/BubbleSortPage'}>
+                    <Link href={'BubbleSortPage'}>
                         <Image height={200} width={200} src='/images/3840.jpg' />
                     </Link>
                 </Paper>
@@ -27,7 +27,7 @@ export function SortingSelect() {
                     boxShadow: 5
                 }}>
                     <Typography> Heap </Typography>
-                    <Link href={'sorting/HeapSortPage'}>
+                    <Link href={'HeapSortPage'}>
                         <Image height={200} width={200} src='/images/3840.jpg' />
                     </Link>
                 </Paper>
@@ -37,7 +37,7 @@ export function SortingSelect() {
                     boxShadow: 5
                 }}>
                     <Typography> Quick </Typography>
-                    <Link href={'sorting/QuickSortPage'}>
+                    <Link href={'QuickSortPage'}>
                         <Image height={200} width={200} src='/images/3840.jpg' />
                     </Link>
                 </Paper>
@@ -47,7 +47,7 @@ export function SortingSelect() {
                     boxShadow: 5
                 }}>
                     <Typography> Merge </Typography>
-                    <Link href={'sorting/MergeSortPage'}>
+                    <Link href={'MergeSortPage'}>
                         <Image height={200} width={200} src='/images/3840.jpg' />
                     </Link>
                 </Paper>
@@ -57,7 +57,7 @@ export function SortingSelect() {
                     boxShadow: 5
                 }}>
                     <Typography> Selection </Typography>
-                    <Link href={'sorting/SelectionSortPage'}>
+                    <Link href={'SelectionSortPage'}>
                         <Image height={200} width={200} src='/images/3840.jpg' />
                     </Link>
                 </Paper>
@@ -67,7 +67,7 @@ export function SortingSelect() {
                     boxShadow: 5
                 }}>
                     <Typography> Insertion </Typography>
-                    <Link href={'sorting/InsertionSortPage'}>
+                    <Link href={'InsertionSortPage'}>
                         <Image height={200} width={200} src='/images/3840.jpg' />
                     </Link>
                 </Paper>

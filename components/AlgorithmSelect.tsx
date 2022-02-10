@@ -16,7 +16,7 @@ export function AlgorithmSelect() {
                     boxShadow: 5
                 }}>
                     <Typography> Sorting </Typography>
-                    <Link href={'sorting/SortingSelect'}>
+                    <Link href={'../sorting/SortingSelect'}>
                         <Image height={200} width={200} src='/images/3840.jpg' />
                     </Link>
                 </Paper>
