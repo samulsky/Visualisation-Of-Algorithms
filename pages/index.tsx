@@ -1,10 +1,11 @@
 import { Box } from "@mui/system";
-import { SortingSelect } from "../components/SortingSelect";
+import { AlgorithmSelect } from "../components/AlgorithmSelect";
+
 
 export default function Home() {
   return (
   <Box>
-    <SortingSelect/>
+    <AlgorithmSelect/>
   </Box>
 
     
